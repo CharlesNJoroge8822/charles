@@ -1,0 +1,83 @@
+/*Author; Charles Njoroge*/
+/*Content; Portfolio*/
+/*Year; 2024*/
+ body{
+    background-color:rgba(41, 192, 41, 0.801);
+    height: 50vh;
+    border: #6b8e23;
+    
+ }
+ 
+ .Container{
+    display:flex;
+    border: 10px black;
+    height: 40vh;
+    flex-direction:row;
+    align-items;
+    justify-content:space-between;
+ }
+.box{
+    width: 101px;
+    height: 10vh;
+    font-style: italic;
+    font-size: larger;
+    text-align:center;
+    border-radius: 15px;
+}
+#num1{
+    background-color: #6b8e23;/*sets the backgrounmd color of the box to that color*/
+    cursor: crosshair;/*Changes cursor style to crosshair*/
+    margin: 10px;/*sets the margin of the box to the preferred one*/
+    transition: 2s;/*Transition style is set to the speed of four seconds*/
+    font-size: 24px;
+}
+#num1:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+
+ #num2{
+    background-color: #6b8e23;
+    font-size: 24px;
+    cursor: crosshair;
+    margin: 10px;
+    transition:2s;  
+}
+#num2:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+
+#num3{
+    background-color: #6b8e23;
+    cursor: crosshair;
+    margin: 10px;
+    transition:2s;
+    font-size: 24px;
+}
+#num3:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+#num4{
+    background-color: #6b8e23;
+    font-size: 24px;
+    cursor: crosshair;
+    margin: 10px;
+    transition:2s;  
+}
+#num4:hover{
+    background-color: blueviolet;
+    transform: scale(1.05);
+}
+ 
+img{
+    height: 53vh;
+    width: 430px;
+}
+#img:hover{
+    transform: ;size: 4px;
+    transition: 3s;
+}
+
+ 
