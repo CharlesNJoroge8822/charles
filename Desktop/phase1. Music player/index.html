@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- create container element that will hold all the content in musicv player -->
+    <div id="music-player">
+
+        <!-- this holds the hedaer text  -->
+        <div id="song-header"><i>Purple Music player</i></div>
+
+        <!-- this container holds the playlist details-->
+        <div id="playlist-1">
+
+            <!-- this defines the header section of the playlist -->
+            <div class="header">
+
+                <!-- this will set an image  -->
+            <img id="album-art" src="ttwags salter.webp" alt="Album Art">
+
+            <!-- set an text -->
+            <h3>Music player</h3>
+
+            <!-- div is will add control buttons -->
+                <div id="control-buttons">
+                    <button id="play-pause-btn">Play/Pause</button>
+                    <button id="prev-btn">Previous</button>
+                    <button id="next-btn">Next</button>
+
+                    <!-- this a volume slider -->
+                    <!--range sets it as sliding style -->
+                    <!-- id voulume-slider gives the volume button and id-->
+                    <!--  step sets the volume slide to be adjustable-->
+                    <!-- min sets that the slider can adjust in a sequence -->
+                    <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="1">
+                </div>
+                <br>
+                <br>
+                <!-- insert the button for playing music using this audio box -->
+                <audio id="audio-player" controls></audio>
+            </div>
+        </div>
+        <h3><i><span style="color: red;">Disclaimer:</span> Some songs aren't playing due to copyright restrictions </i></h3>
+    
+    
+        
+        <!-- button to add songs to the playlist -->
+        <div id="playlist-container">
+            <h2>Playlist</h2>
+
+            <!-- to add a playlist, use ul to set that items will occassionally appear here -->
+            <ul id="playlist-list"></ul>
+
+            <br>
+            <input type="text" id="add-song-input" placeholder="Enter music source to add">
+            
+            <button id="add-song-btn">Add Song</button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+<!-- Running my json server globally to get the url -->
+
+<!-- npm install -g json-server -->
+<!-- json-server --watch db.json -p 3001 -->

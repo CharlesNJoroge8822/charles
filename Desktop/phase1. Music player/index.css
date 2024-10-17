@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(rgb(253, 5, 47), purple);
+    font-size: 12px;
+}
+
+#song-header{
+    background-color: rgb(188, 188, 21);
+    background-image: linear-gradient(violet, red);
+    height: 5vh;
+    padding: 2px;
+    border-radius: 2vh;
+    color: rgb(115, 52, 174);
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+}
+
+#album-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    animation: rotate 10s infinite linear;
+}
+
+#song-title {
+    font-size: 34px;
+    font-weight: bold;
+    animation: move 7s infinite linear;
+    color: yellow;
+}
+
+.control {
+    background-color: #f60909;
+    padding: 14px;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+#add-song-input{
+    height: 4vh;
+    border-radius: 50px;
+    background-color: purple;
+}
+
+#add-song-input{
+    height: 4vh;
+    color: #f60909;
+}
+
+
+
+
+/* 1hr 40mins  */

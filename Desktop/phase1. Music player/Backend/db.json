@@ -1,0 +1,54 @@
+{
+    "musicPlayer": {
+        "playlist": [
+            {
+                "id": 1,
+                "title": "Song 1",
+                "artist": "Artist 1",
+                "source": "All This Time(MP3_160K).mp3",
+                "albumArt": "ttwags salter.webp"
+            },
+            {
+                "id": 2,
+                "title": "Song 2",
+                "artist": "Artist 2",
+                "source": "It Is What It Is(MP3_160K)_private.lrc",
+                "albumArt": "another_album_art.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Song 3",
+                "artist": "Artist 3",
+                "source": "Tawgs Salter - Brave(MP3_128K).mp3",
+                "albumArt": "another_album_art.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Song 4",
+                "artist": "Artist 4",
+                "source": "https://youtu.be/mHgrupbnwoc?si=QaOovgXawIIWRe8R",
+                "albumArt": "another_album_art.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Song 5",
+                "artist": "Artist 5",
+                "source": " LECADE - Glass (Official Music Video)(MP3_160K).mp3",
+                "albumArt": "another_album_art.jpg"
+            },
+            {
+                "id": 6,
+                "title": "Song 6",
+                "artist": "Artist 6",
+                "source": "OneRepublic - Come Home (feat. Sara Bareilles)(MP3_160K).mp3",
+                "albumArt": "another_album_art.jpg"
+            }
+        
+        ],
+        "currentSongIndex": 0,
+        "isPlaying": false,
+        "volume": 1
+    }
+}
+
+
